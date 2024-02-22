@@ -1,0 +1,71 @@
+.AllDatas {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Custom {
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.latest {
+  color: #fcbe32;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.head {
+  list-style: none;
+}
+
+.one {
+  display: inline-block;
+  padding: 40px;
+  margin: 20px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.imgs {
+  height: 175px;
+}
+
+.one:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+.one {
+  overflow: hidden;
+  border-radius: 2% 2% 0 0;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.listone {
+  font-weight: 300;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.listTwo {
+  font-weight: 700;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.price {
+  position: relative;
+  bottom: 5px;
+  color: green;
+}

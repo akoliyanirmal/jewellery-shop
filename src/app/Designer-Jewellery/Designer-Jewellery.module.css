@@ -1,0 +1,264 @@
+.heading {
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.newCollection {
+  position: absolute;
+  width: 100%;
+}
+
+.left {
+  float: left;
+  background: url(https://media.angieslist.com/s3fs-public/styles/widescreen_large/public/jewelry.jpeg?itok=ymeE9NXz);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  height: 350px;
+  width: 50%;
+}
+
+.right {
+  float: left;
+  background: url(http://static.boredpanda.com/blog/wp-content/uploads/2016/03/terrarium-jewelry-microcosm-ruby-robin-boutique-10.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 350px;
+  width: 50%;
+}
+
+.midddle {
+  position: absolute;
+  background: #fcbe32;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 250px;
+  width: 350px;
+  left: 50%;
+  border-radius: 10px;
+  top: 50%;
+  margin-left: -175px;
+  margin-top: -125px;
+  text-align: center;
+}
+
+.midTitle {
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -80px;
+  margin-top: -60px;
+}
+
+.title {
+  padding-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.collection {
+  position: relative;
+  top: 11px;
+}
+.productLink {
+  text-decoration: none;
+  font-family: math;
+  color: indigo;
+  position: relative;
+  top: 16px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sectionHead {
+  padding-top: 340px;
+}
+
+.sectionHead h2 {
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.sectionHead p {
+  color: #fcbe32;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.collectionList ul {
+  list-style: none;
+}
+
+.collectionList ul li {
+  display: inline-block;
+  padding: 14px;
+}
+
+.image {
+  width: 180px;
+}
+
+.head h3 {
+  font-weight: 300;
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.head span {
+  font-weight: 700;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.cardOne {
+  background: url(https://simonewalsh.com/cdn/shop/files/banner-gold-jewellery-2022.jpg?v=1670496877&width=1700);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-size: cover;
+  height: 350px;
+}
+
+.cardTwo {
+  background: #985d8d;
+  height: 350px;
+  color: #eee;
+}
+
+.sections {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.cardTwo {
+  background: #985d8d;
+  height: 350px;
+  color: #eee;
+}
+
+.cardTitles {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+.cardTitles h3 {
+  letter-spacing: 2px;
+}
+
+.home {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cardThree {
+  background: #fcbe32;
+  height: 350px;
+}
+
+.cardtitle {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+.cardtitle h3 {
+  letter-spacing: 2px;
+}
+
+.cardFour {
+  background: url(https://media.herworld.com/public/2018/04/classic-investment-pieces-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  background-size: cover;
+  height: 350px;
+}
+
+.gallery {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.containa {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.sectionHed {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: -50px;
+}
+
+.sectionHed h2 {
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+}
+
+.sectionHed p {
+  color: #fcbe32;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.showCard {
+  list-style: none;
+}
+
+.Cards {
+  display: block;
+  width: 33.33%;
+  float: left;
+}
+
+.cardFigure {
+  overflow: hidden;
+}
+
+.cardImage {
+  width: 82%;
+  border-radius: 9px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

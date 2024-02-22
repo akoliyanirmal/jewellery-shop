@@ -1,0 +1,84 @@
+.contact {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.Shead h2 {
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.Shead p {
+  color: #fcbe32;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.forms {
+  padding-bottom: 83px;
+}
+
+.inputsFild {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #985d8d;
+  border-radius: 4px;
+  margin: 6px;
+  resize: vertical;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-variant: all-small-caps;
+}
+
+.textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #985d8d;
+  border-radius: 4px;
+  margin: 6px;
+  resize: vertical;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-variant: all-small-caps;
+  font-size: 20px;
+}
+/* CSS */
+.button {
+  position: relative;
+  text-decoration: none;
+  top: 40px;
+  background-color: lightgray;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:not(:disabled):hover,
+.button:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}

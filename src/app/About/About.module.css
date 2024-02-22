@@ -1,0 +1,91 @@
+.main {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.mains {
+  padding-top: 80px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  bottom: 10px;
+}
+
+.sectionHead h2 {
+  font-weight: 400;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+
+  letter-spacing: 2px;
+}
+
+.sectionHead p {
+  color: #fcbe32;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  padding-top: 35px;
+}
+
+.leftImg {
+  width: 50%;
+  height: 300px;
+  background: url(https://media.angieslist.com/s3fs-public/styles/widescreen_large/public/jewelry.jpeg?itok=ymeE9NXz);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.leftImgs {
+  width: 50%;
+  height: 300px;
+  background: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201603/semistory_647_032916042624.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.rightHead {
+  width: 50%;
+  height: 300px;
+  float: left;
+  background: #fcbe32;
+}
+
+.text {
+  max-height: 300px;
+  color: #555;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 80px 10px 80px;
+  line-height: 1.5;
+}
+
+.text h3 {
+  letter-spacing: 2px;
+  position: relative;
+  bottom: 22px;
+  text-transform: uppercase;
+}
+
+.info {
+  position: relative;
+  text-transform: uppercase;
+  font-family: math;
+}
+
+.infor {
+  position: relative;
+  top: 10px;
+  padding: 6px;
+  text-transform: uppercase;
+  font-family: math;
+}

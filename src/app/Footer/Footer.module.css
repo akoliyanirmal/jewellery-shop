@@ -1,0 +1,123 @@
+.Fdistributed {
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+}
+
+.Fleft {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Fleft h3 {
+  color: #ffffff;
+  font: normal 36px "Open Sans", cursive;
+  margin: 0;
+}
+
+.Fleft h3 span {
+  color: lightseagreen;
+}
+
+.Flink {
+  color: #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.Lpages {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: inherit;
+  margin: 10px;
+}
+
+.logo {
+  left: 20px;
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.companyName {
+  font-weight: 400;
+  margin: 0;
+}
+
+.Fcenter {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.addres p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
+
+.addres span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.contact p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+  position: relative;
+  top: 17px;
+}
+
+.mail p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.mails {
+  color: lightseagreen;
+  text-decoration: none;
+  position: relative;
+  top: 25px;
+}
+
+.Fright {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Fright p {
+  line-height: 20px;
+  color: black;
+  font-size: 13px;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: math;
+}
+
+.Fright span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
