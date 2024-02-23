@@ -1,9 +1,13 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import classes from "./Custom-Jewellery.module.css";
+import Link from "next/link";
 
 function CustomJeweller() {
   return (
     <>
+      {/* this is section 1 */}
+
       <section className={classes.AllDatas}>
         <div className={classes.container}>
           <div className={classes.heading}>
@@ -13,6 +17,8 @@ function CustomJeweller() {
 
           <div className={classes.photosHeader}>
             <ul className={classes.head}>
+              {/* navigate to full details */}
+
               <li className={classes.one}>
                 <img
                   className={classes.imgs}
@@ -121,6 +127,72 @@ function CustomJeweller() {
                 <div className={classes.listHead}>
                   <h3 className={classes.listone}>Kundan jewellery</h3>
                   <h3 className={classes.price}>price: ₹8,242</h3>
+                  <span className={classes.listTwo}>
+                    The description of the item.
+                  </span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* this is section 3 */}
+
+      <section className={classes.AllDatas}>
+        <div className={classes.container}>
+          <div className={classes.photosHeader}>
+            <ul className={classes.head}>
+              <li className={classes.one}>
+                <img
+                  className={classes.imgs}
+                  src="/images/platinium.png"
+                  alt=""
+                />
+                <div className={classes.listHead}>
+                  <h3 className={classes.listone}>Platinum</h3>
+                  <h3 className={classes.price}>price: ₹2,360</h3>
+                  <span className={classes.listTwo}>
+                    The description of the item.
+                  </span>
+                </div>
+              </li>
+
+              <li className={classes.one}>
+                <img className={classes.imgs} src="/images/Temple.png" alt="" />
+                <div className={classes.listHead}>
+                  <h3 className={classes.listone}>Temple jewellery</h3>
+                  <h3 className={classes.price}>price: ₹95,469</h3>
+                  <span className={classes.listTwo}>
+                    The description of the item.
+                  </span>
+                </div>
+              </li>
+
+              <li className={classes.one}>
+                <img
+                  className={classes.imgs}
+                  src="/images/Filigree.png"
+                  alt=""
+                />
+                <div className={classes.listHead}>
+                  <h3 className={classes.listone}>Filigree jewellery</h3>
+                  <h3 className={classes.price}>price: ₹62,662</h3>
+                  <span className={classes.listTwo}>
+                    The description of the item.
+                  </span>
+                </div>
+              </li>
+
+              <li className={classes.one}>
+                <img
+                  className={classes.imgs}
+                  src="/images/cufflink.png"
+                  alt=""
+                />
+                <div className={classes.listHead}>
+                  <h3 className={classes.listone}>cufflink jewellery</h3>
+                  <h3 className={classes.price}>price: ₹35,662</h3>
                   <span className={classes.listTwo}>
                     The description of the item.
                   </span>

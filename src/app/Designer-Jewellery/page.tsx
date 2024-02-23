@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import classes from "./Designer-Jewellery.module.css";
 import Link from "next/link";

@@ -1,7 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import classes from "./Footer.module.css";
 import Link from "next/link";
-import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 
 const Footer = () => {
   return (
@@ -11,7 +12,7 @@ const Footer = () => {
           <Link href="/">
             <img className={classes.logo} src="/images/infinty.png" alt="" />
           </Link>
-          <p className={classes.companyName}>GigaKelvin © 2015</p>
+          <p className={classes.companyName}>GigaKelvin © 2024</p>
         </div>
 
         <div className={classes.Fcenter}>

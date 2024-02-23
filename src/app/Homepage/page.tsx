@@ -6,7 +6,7 @@ import AllInclusiveIcon from "@mui/icons-material/AllInclusive";
 function NavBar() {
   return (
     <>
-      <header className={classes.AllData} id="home">
+      <header className={classes.AllData}>
         <div className={classes.container}>
           <div className={classes.brand}>
             <AllInclusiveIcon className={classes.img} />

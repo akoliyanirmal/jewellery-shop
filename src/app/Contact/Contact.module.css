@@ -34,7 +34,6 @@
   margin: 6px;
   resize: vertical;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-variant: all-small-caps;
 }
 
 .textarea {
@@ -45,8 +44,7 @@
   margin: 6px;
   resize: vertical;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  font-variant: all-small-caps;
-  font-size: 20px;
+  font-size: 15px;
 }
 /* CSS */
 .button {
@@ -61,7 +59,6 @@
   padding: 10px 15px;
   text-align: center;
   transition: 200ms;
-  width: 100%;
   box-sizing: border-box;
   border: 0;
   font-size: 16px;
