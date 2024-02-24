@@ -29,10 +29,81 @@
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+  perspective: 1000px;
+}
+
+.one:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+/* .buy {
+  position: relative;
+  top: 15px;
+} */
+
+/* CSS */
+.buy {
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: math;
+  --b: 3px;
+  --s: 0.45em;
+  --color: black;
+  padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background: conic-gradient(
+      from 90deg at var(--b) var(--b),
+      #0000 90deg,
+      var(--color) 0
+    )
+    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
+    calc(100% - var(--b) - 2 * var(--_p));
+  transition: 0.3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: 0.6em;
+  font-size: 16px;
+  border: 0;
+  touch-action: manipulation;
+}
+
+.buy:hover,
+.buy:focus-visible {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: 0.05em;
+}
+
+.buy:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: -14px;
+  transform: rotateY(180deg);
+  font-size: 0.8rem;
+  text-align: -webkit-auto;
+  font-weight: 700;
+}
+
+.front {
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
 }
 
 .imgs {
-  height: 175px;
+  height: 200px;
 }
 
 .one:hover {
@@ -45,10 +116,6 @@
   overflow: hidden;
   border-radius: 2% 2% 0 0;
   transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -o-transition: all 1s ease;
 }
 
 .listone {
