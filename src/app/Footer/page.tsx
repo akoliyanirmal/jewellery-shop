@@ -3,6 +3,10 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import Link from "next/link";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Footer = () => {
   return (
@@ -32,11 +36,17 @@ const Footer = () => {
               nirmal@gmail.com
             </Link>
           </div>
+          <div className={classes.icons}>
+            <TwitterIcon />
+            <InstagramIcon />
+            <FacebookIcon />
+            <LinkedInIcon />
+          </div>
         </div>
 
         <div className={classes.Fright}>
           <p>
-            <span>About the company</span>
+            <span>About the company 👇</span>
             Welcome to INFINITY GOLDEN JEWELRY, where exquisite craftsmanship
             meets timeless elegance.company dedicated to creating stunning
             pieces that become cherished symbols of life's most precious

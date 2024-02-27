@@ -51,11 +51,26 @@
   float: left;
 }
 
+.leftImgs3 {
+  width: 50%;
+  height: 300px;
+  background: url(https://english.mathrubhumi.com/image/contentid/policy:1.5073781:1685154758/image.jpg?$p=0f6e831&f=16x10&w=852&q=0.8);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.sales {
+  text-transform: uppercase;
+  font-family: math;
+}
+
 .rightHead {
   width: 50%;
   height: 300px;
   float: left;
-  background: #fcbe32;
+  background: #bcb8cf;
 }
 
 .text {

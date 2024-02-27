@@ -42,7 +42,7 @@ function Abouts() {
           <div className={classes.leftImgs}></div>
           <div className={classes.rightHead}>
             <div className={classes.text}>
-              <h3>work!</h3>
+              <h3>work</h3>
 
               <div className={classes.info}>
                 <p>Product Sourcing.</p>
@@ -62,6 +62,27 @@ function Abouts() {
 
               <div className={classes.infor}>
                 <p>Sales Process.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* THIS IS SECTION 3 */}
+
+      <section className={classes.mains}>
+        <div className={classes.wrapper}>
+          <div className={classes.leftImgs3}></div>
+          <div className={classes.rightHead}>
+            <div className={classes.text}>
+              <h3>slaes</h3>
+
+              <div className={classes.sales}>
+                A jewelry sales associate assists customers in selecting and
+                purchasing jewelry. They provide product information, offer
+                advice on styles and trends, showcase merchandise, and handle
+                transactions. Customer service, product knowledge, and a
+                friendly demeanor are key aspects of the role.
               </div>
             </div>
           </div>

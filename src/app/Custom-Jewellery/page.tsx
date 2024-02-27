@@ -1,7 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+// "use client";
+
+/* eslint-disable @next/next/no-img-element */
+import React, { useState } from "react";
 import classes from "./Custom-Jewellery.module.css";
-import Link from "next/link";
 
 function CustomJeweller() {
   return (
@@ -16,12 +18,11 @@ function CustomJeweller() {
           </div>
 
           <div className={classes.photosHeader}>
+            {/*1 */}
             <ul className={classes.head}>
-              {/*1 */}{" "}
-              <li className={classes.one}>
+              <li className={classes.one} id="1">
                 <div className={classes.card}>
                   <div className={classes.front}>
-                    {" "}
                     <img
                       className={classes.imgs}
                       src="/images/braclate.png"
@@ -50,12 +51,12 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*2 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="2">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
                       className={classes.imgs}
-                      src="https://s-media-cache-ak0.pinimg.com/originals/27/41/69/274169b4444ccf7448d4133c13dd05c1.png"
+                      src="https:s-media-cache-ak0.pinimg.com/originals/27/41/69/274169b4444ccf7448d4133c13dd05c1.png"
                       alt=""
                     />
                     <div className={classes.listHead}>
@@ -79,12 +80,12 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*3 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="3">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
                       className={classes.imgs}
-                      src="https://s-media-cache-ak0.pinimg.com/originals/c9/89/55/c98955bbb6331b4aa98cf33bdc84a84a.png"
+                      src="https:s-media-cache-ak0.pinimg.com/originals/c9/89/55/c98955bbb6331b4aa98cf33bdc84a84a.png"
                       alt=""
                     />
                     <div className={classes.listHead}>
@@ -109,7 +110,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*4 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="4">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -150,7 +151,7 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             <ul className={classes.head}>
               {/*5 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="5">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -179,7 +180,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*6 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="6">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -207,7 +208,7 @@ function CustomJeweller() {
               </li>
 
               {/*7 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="7">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -234,7 +235,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*8 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="8">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -273,7 +274,7 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             <ul className={classes.head}>
               {/*9 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="9">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -303,7 +304,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*10 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="10">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -332,7 +333,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*11 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="11">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img
@@ -361,7 +362,7 @@ function CustomJeweller() {
                 <button className={classes.buy}>Buy Now</button>
               </li>
               {/*12 */}
-              <li className={classes.one}>
+              <li className={classes.one} id="">
                 <div className={classes.card}>
                   <div className={classes.front}>
                     <img

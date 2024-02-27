@@ -34,6 +34,7 @@ function DesignerJewellery() {
             <h2>Designer JEWELRY</h2>
             <p>Explore Design</p>
           </div>
+
           <div className={classes.collectionList}>
             <ul>
               <li>
@@ -43,7 +44,7 @@ function DesignerJewellery() {
                   alt=""
                 />
                 <div className={classes.head}>
-                  <h3>Bracelets</h3>
+                  <h3>BRACELETS</h3>
                   <span>The description of the item.</span>
                 </div>
               </li>
@@ -55,7 +56,7 @@ function DesignerJewellery() {
                   alt=""
                 />
                 <div className={classes.head}>
-                  <h3>Bracelets</h3>
+                  <h3>RINGS</h3>
                   <span>The description of the item.</span>
                 </div>
               </li>
@@ -67,7 +68,43 @@ function DesignerJewellery() {
                   alt=""
                 />
                 <div className={classes.head}>
-                  <h3>Bracelets</h3>
+                  <h3>EARRINGS</h3>
+                  <span>The description of the item.</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div className={classes.collectionList}>
+            <ul>
+              <li>
+                <img
+                  className={classes.image}
+                  src="/images/pendent.png"
+                  alt=""
+                />
+                <div className={classes.head}>
+                  <h3>Pendants</h3>
+                  <span>The description of the item.</span>
+                </div>
+              </li>
+
+              <li>
+                <img className={classes.image} src="/images/gold.png" alt="" />
+                <div className={classes.head}>
+                  <h3>gold jewellery</h3>
+                  <span>The description of the item.</span>
+                </div>
+              </li>
+
+              <li>
+                <img
+                  className={classes.image}
+                  src="/images/platinium.png"
+                  alt=""
+                />
+                <div className={classes.head}>
+                  <h3>Platinum</h3>
                   <span>The description of the item.</span>
                 </div>
               </li>

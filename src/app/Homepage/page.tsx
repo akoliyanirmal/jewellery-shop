@@ -1,4 +1,6 @@
-import React from "react";
+// "use client";
+
+import React, { useEffect, useState } from "react";
 import classes from "./HomePage.module.css";
 import Link from "next/link";
 import AllInclusiveIcon from "@mui/icons-material/AllInclusive";

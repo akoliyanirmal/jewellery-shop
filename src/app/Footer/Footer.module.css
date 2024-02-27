@@ -1,10 +1,9 @@
 .Fdistributed {
-  background: #666;
+  background: #bcb8cf;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
   padding: 55px 50px;
 }
 
@@ -12,6 +11,12 @@
   width: 40%;
   display: inline-block;
   vertical-align: top;
+}
+
+.icons {
+  position: relative;
+  top: 42px;
+  cursor: pointer;
 }
 
 .Fleft h3 {
@@ -59,7 +64,7 @@
 
 .addres p {
   display: inline-block;
-  color: #ffffff;
+  color: black;
   font-weight: 400;
   vertical-align: middle;
   margin: 0;
@@ -76,7 +81,7 @@
 
 .contact p {
   display: inline-block;
-  color: #ffffff;
+  color: black;
   font-weight: 400;
   vertical-align: middle;
   margin: 0;
@@ -93,7 +98,6 @@
 }
 
 .mails {
-  color: lightseagreen;
   text-decoration: none;
   position: relative;
   top: 25px;
@@ -116,7 +120,7 @@
 
 .Fright span {
   display: block;
-  color: #ffffff;
+  color: black;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 20px;
