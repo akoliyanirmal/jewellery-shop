@@ -7,6 +7,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import RssFeedIcon from "@mui/icons-material/RssFeed";
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
         <div className={classes.Fcenter}>
           <div className={classes.addres}>
             <p>
-              <span>403,</span>
+              <span>403, AR MALL</span>
               mota varachha
             </p>
           </div>
@@ -41,6 +42,7 @@ const Footer = () => {
             <InstagramIcon />
             <FacebookIcon />
             <LinkedInIcon />
+            <RssFeedIcon />
           </div>
         </div>
 
