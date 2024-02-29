@@ -67,7 +67,7 @@
   right: 4px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .list {
     padding: 5px;
   }
@@ -94,4 +94,4 @@
   .home {
     font-size: 16px;
   }
-}
+} */
