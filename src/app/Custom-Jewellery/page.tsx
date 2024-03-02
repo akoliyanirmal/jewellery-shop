@@ -4,6 +4,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import classes from "./Custom-Jewellery.module.css";
+import Link from "next/link";
 
 function CustomJeweller() {
   return (
@@ -20,36 +21,38 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             {/*1 */}
             <ul className={classes.head}>
-              <li className={classes.one} id="1">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/braclate.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Bracelets</h3>
-                      <h3 className={classes.price}>price: ₹48,345</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Categories">
+                <li className={classes.one} id="1">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/braclate.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Bracelets</h3>
+                        <h3 className={classes.price}>price: ₹48,345</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Bracelets are accessories worn around the wrist for
+                      decorative, ornamental, or symbolic purposes. They come in
+                      a wide variety of styles, materials, and designs, catering
+                      to diverse tastes and occasions. Here are some common
+                      types of bracelets,Bracelets are not only fashion
+                      accessories but can also hold sentimental value,
+                      representing personal style, cultural traditions, or
+                      meaningful connections. They make for popular gifts and
+                      are commonly used to commemorate special occasions
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Bracelets are accessories worn around the wrist for
-                    decorative, ornamental, or symbolic purposes. They come in a
-                    wide variety of styles, materials, and designs, catering to
-                    diverse tastes and occasions. Here are some common types of
-                    bracelets,Bracelets are not only fashion accessories but can
-                    also hold sentimental value, representing personal style,
-                    cultural traditions, or meaningful connections. They make
-                    for popular gifts and are commonly used to commemorate
-                    special occasions
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*2 */}
               <li className={classes.one} id="2">
                 <div className={classes.card}>
