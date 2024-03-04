@@ -21,7 +21,7 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             {/*1 */}
             <ul className={classes.head}>
-              <Link className={classes.cardTwo} href="Categories">
+              <Link className={classes.cardTwo} href="Bracelet">
                 <li className={classes.one} id="1">
                   <div className={classes.card}>
                     <div className={classes.front}>
@@ -54,64 +54,68 @@ function CustomJeweller() {
                 </li>
               </Link>
               {/*2 */}
-              <li className={classes.one} id="2">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="https:s-media-cache-ak0.pinimg.com/originals/27/41/69/274169b4444ccf7448d4133c13dd05c1.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Rings</h3>
-                      <h3 className={classes.price}>price: ₹13,004</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Ring">
+                <li className={classes.one} id="2">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="https:s-media-cache-ak0.pinimg.com/originals/27/41/69/274169b4444ccf7448d4133c13dd05c1.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Rings</h3>
+                        <h3 className={classes.price}>price: ₹13,004</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Also called finger ring . a typically circular band of
+                      metal or other durable material, especially one of gold or
+                      other precious metal, often set with gems, for wearing on
+                      the finger as an ornament, a token of betrothal or
+                      marriage, etc.a similar band of metal or other durable
+                      material worn as an ornament on another part of the body,
+                      such as on the toe or in a piercing.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Also called finger ring . a typically circular band of metal
-                    or other durable material, especially one of gold or other
-                    precious metal, often set with gems, for wearing on the
-                    finger as an ornament, a token of betrothal or marriage,
-                    etc.a similar band of metal or other durable material worn
-                    as an ornament on another part of the body, such as on the
-                    toe or in a piercing.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*3 */}
-              <li className={classes.one} id="3">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="https:s-media-cache-ak0.pinimg.com/originals/c9/89/55/c98955bbb6331b4aa98cf33bdc84a84a.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Earrings</h3>
-                      <h3 className={classes.price}>price: ₹7,028</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Earrings">
+                <li className={classes.one} id="3">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="https:s-media-cache-ak0.pinimg.com/originals/c9/89/55/c98955bbb6331b4aa98cf33bdc84a84a.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Earrings</h3>
+                        <h3 className={classes.price}>price: ₹7,028</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      An earring is any kind of ring, stud, hoop, or dangling
+                      decoration that you clip on your earlobe or hook through a
+                      hole pierced in your ear. Many people wear two matching
+                      earrings, one in each lobe, although others have just one
+                      pierced ear and wear a single earring — and some have
+                      multiple piercings in which they can wear a variety of
+                      earrings. In the 18th century, an earring that dangled was
+                      called an ear-drop.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    An earring is any kind of ring, stud, hoop, or dangling
-                    decoration that you clip on your earlobe or hook through a
-                    hole pierced in your ear. Many people wear two matching
-                    earrings, one in each lobe, although others have just one
-                    pierced ear and wear a single earring — and some have
-                    multiple piercings in which they can wear a variety of
-                    earrings. In the 18th century, an earring that dangled was
-                    called an ear-drop.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*4 */}
               <li className={classes.one} id="4">
                 <div className={classes.card}>

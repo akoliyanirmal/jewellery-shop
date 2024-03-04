@@ -28,13 +28,9 @@ function bracelet() {
               </li>
               {/*2 */}
               <li className={classes.one} id="2">
-                <img
-                  className={classes.img}
-                  src="/images/Friendship.png"
-                  alt=""
-                />
+                <img className={classes.img} src="/images/slider.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Friendship bracelets</h3>
+                  <h3 className={classes.listone}>slider bracelets</h3>
                 </div>
               </li>
               {/*3 */}
@@ -68,16 +64,20 @@ function bracelet() {
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
-                <img className={classes.imgs} src="/images/wooden.png" alt="" />
+                <img
+                  className={classes.imgs}
+                  src="/images/statement.png"
+                  alt=""
+                />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>wooden bracelets</h3>
+                  <h3 className={classes.listone}>statement bracelets</h3>
                 </div>
               </li>{" "}
               {/*5 */}
               <li className={classes.one} id="4">
-                <img className={classes.img} src="/images/leather.png" alt="" />
+                <img className={classes.img} src="/images/tennis.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>leather bracelets</h3>
+                  <h3 className={classes.listone}>tennis bracelets</h3>
                 </div>
               </li>
               {/*5 */}
