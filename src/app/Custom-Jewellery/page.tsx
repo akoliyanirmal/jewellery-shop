@@ -117,35 +117,38 @@ function CustomJeweller() {
                 </li>
               </Link>
               {/*4 */}
-              <li className={classes.one} id="4">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/pendent.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Pendants</h3>
-                      <h3 className={classes.price}>price: ₹17,687</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Pendent">
+                <li className={classes.one} id="4">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/pendent.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Pendants</h3>
+                        <h3 className={classes.price}>price: ₹17,687</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      pendant, in jewelry, ornament suspended from a bracelet,
+                      earring, or, especially, a necklace. Pendants are derived
+                      from the primitive practice of wearing amulets or
+                      talismans around the neck. The practice dates from the
+                      Stone Age, when pendants consisted of such objects as
+                      teeth, stones, and shells.pendant may also hold a picture
+                      or a lock of hair of protectively in front of the body and
+                      near the heart, pendants have often had symbolic and
+                      magical purposes.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    pendant, in jewelry, ornament suspended from a bracelet,
-                    earring, or, especially, a necklace. Pendants are derived
-                    from the primitive practice of wearing amulets or talismans
-                    around the neck. The practice dates from the Stone Age, when
-                    pendants consisted of such objects as teeth, stones, and
-                    shells.pendant may also hold a picture or a lock of hair of
-                    protectively in front of the body and near the heart,
-                    pendants have often had symbolic and magical purposes.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
@@ -158,34 +161,34 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             <ul className={classes.head}>
               {/*5 */}
-              <li className={classes.one} id="5">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/gold.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>gold jewellery</h3>
-                      <h3 className={classes.price}>price: ₹1,25,032</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Bangles">
+                <li className={classes.one} id="5">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/Bangles.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Bangles jewellery</h3>
+                        <h3 className={classes.price}>price: ₹5,69,415</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Bangles are circular in shape, and, unlike bracelets, are
+                      not flexible. The word is derived from Hindi bungri
+                      (glass). They are made of numerous precious as well as
+                      non-precious materials such as gold, silver, platinum,
+                      glass, wood, ferrous metals, plastic, etc.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Yellow gold jewellery is still the most popular colour, but
-                    today gold is available in a diverse palette. The process of
-                    alloying—mixing other metals with pure 24 carat gold—gives
-                    malleable gold more durability,White gold is created through
-                    alloying pure gold with white metals such as palladium or
-                    silver. In addition it is usually plated with rhodium to
-                    create a harder surface with a brighter shine
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*6 */}
               <li className={classes.one} id="6">
                 <div className={classes.card}>
