@@ -8,4 +8,4 @@ step 3 == git push
 
 git push --set-upstrem origin branch n
 
-<!-- className={`${styles.class1} ${styles.class2}`} --> two classes in module.css file
+<!-- className={`${styles.class1} ${styles.class2}`} two classes in module.css file -->

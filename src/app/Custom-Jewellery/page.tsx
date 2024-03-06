@@ -190,32 +190,35 @@ function CustomJeweller() {
                 </li>
               </Link>
               {/*6 */}
-              <li className={classes.one} id="6">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/ant.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Antique jewellery</h3>
-                      <h3 className={classes.price}>price: ₹6,57,282</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Antique">
+                <li className={classes.one} id="6">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/ant.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Antique jewellery</h3>
+                        <h3 className={classes.price}>price: ₹6,57,282</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      In jewellery trade terms, antique describes a piece that
+                      was made at least 100 years ago. That means that any
+                      jewellery made around 1920 or before is technically
+                      antique. In terms of the AJC collections, our Georgian,
+                      Victorian, Edwardian and Art Nouveau jewellery is all
+                      antique
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    In jewellery trade terms, antique describes a piece that was
-                    made at least 100 years ago. That means that any jewellery
-                    made around 1920 or before is technically antique. In terms
-                    of the AJC collections, our Georgian, Victorian, Edwardian
-                    and Art Nouveau jewellery is all antique
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
 
               {/*7 */}
               <li className={classes.one} id="7">
