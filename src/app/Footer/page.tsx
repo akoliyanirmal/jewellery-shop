@@ -49,10 +49,9 @@ const Footer = () => {
         <div className={classes.Fright}>
           <p>
             <span>About the company 👇</span>
-            Welcome to INFINITY GOLDEN JEWELRY, where exquisite craftsmanship
-            meets timeless elegance.company dedicated to creating stunning
-            pieces that become cherished symbols of life's most precious
-            moments.
+            Welcome to GIGAKELVIN, where exquisite craftsmanship meets timeless
+            elegance.company dedicated to creating stunning pieces that become
+            cherished symbols of life's most precious moments.
           </p>
         </div>
       </footer>

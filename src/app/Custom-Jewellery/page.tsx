@@ -221,60 +221,67 @@ function CustomJeweller() {
               </Link>
 
               {/*7 */}
-              <li className={classes.one} id="7">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/brooch.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Brooch</h3>
-                      <h3 className={classes.price}>price: ₹1,999</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Brooch">
+                <li className={classes.one} id="7">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/brooch.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Brooch</h3>
+                        <h3 className={classes.price}>price: ₹1,999</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      A brooch is a small piece of jewellery which has a pin at
+                      the back so it can be fastened on a dress, blouse, or
+                      coat. Or simply buy a length of ribbon and secure the
+                      brooch to the bow. Synonyms: badge, pin, clip, fastening
+                      More Synonyms of brooch. Collins COBUILD Advanced Learners
+                      Dictionary.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    A brooch is a small piece of jewellery which has a pin at
-                    the back so it can be fastened on a dress, blouse, or coat.
-                    Or simply buy a length of ribbon and secure the brooch to
-                    the bow. Synonyms: badge, pin, clip, fastening More Synonyms
-                    of brooch. Collins COBUILD Advanced Learners Dictionary.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
+
               {/*8 */}
-              <li className={classes.one} id="8">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/kundan.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Kundan jewellery</h3>
-                      <h3 className={classes.price}>price: ₹8,242</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Kundan">
+                <li className={classes.one} id="8">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/kundan.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Kundan jewellery</h3>
+                        <h3 className={classes.price}>price: ₹8,242</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Origins of Kundan jewelleries in India are dated back to
+                      at least 3rd century BCE. Kundan started off in Rajasthan
+                      Royal court and then flourished under royal patronage
+                      during the Mughal era.Over the years, the Kundan jewellery
+                      of the courts was successfully copied in silver in
+                      Rajasthan, Bihar and the Punjab and became popular with
+                      the common man
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Origins of Kundan jewelleries in India are dated back to at
-                    least 3rd century BCE. Kundan started off in Rajasthan Royal
-                    court and then flourished under royal patronage during the
-                    Mughal era.Over the years, the Kundan jewellery of the
-                    courts was successfully copied in silver in Rajasthan, Bihar
-                    and the Punjab and became popular with the common man
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
