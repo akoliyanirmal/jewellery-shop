@@ -59,8 +59,8 @@ function CustomJeweller() {
                   <div className={classes.card}>
                     <div className={classes.front}>
                       <img
-                        className={classes.imgs}
-                        src="https:s-media-cache-ak0.pinimg.com/originals/27/41/69/274169b4444ccf7448d4133c13dd05c1.png"
+                        className={classes.img}
+                        src="/images/newRing.png"
                         alt=""
                       />
                       <div className={classes.listHead}>
@@ -90,8 +90,8 @@ function CustomJeweller() {
                   <div className={classes.card}>
                     <div className={classes.front}>
                       <img
-                        className={classes.imgs}
-                        src="https:s-media-cache-ak0.pinimg.com/originals/c9/89/55/c98955bbb6331b4aa98cf33bdc84a84a.png"
+                        className={classes.img}
+                        src="/images/newEarrings.png"
                         alt=""
                       />
                       <div className={classes.listHead}>
@@ -257,8 +257,8 @@ function CustomJeweller() {
                   <div className={classes.card}>
                     <div className={classes.front}>
                       <img
-                        className={classes.imgs}
-                        src="/images/kundan.png"
+                        className={classes.img}
+                        src="/images/newKundan.png"
                         alt=""
                       />
                       <div className={classes.listHead}>
