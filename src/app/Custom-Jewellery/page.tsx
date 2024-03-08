@@ -294,35 +294,37 @@ function CustomJeweller() {
           <div className={classes.photosHeader}>
             <ul className={classes.head}>
               {/*9 */}
-              <li className={classes.one} id="9">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/platinium.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Platinum</h3>
-                      <h3 className={classes.price}>price: ₹2,360</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Platinum">
+                <li className={classes.one} id="9">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/platinium.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Platinum ring</h3>
+                        <h3 className={classes.price}>price: ₹2,360</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Pure platinum is simply too hard to be used in jewelry.
+                      Instead, platinum is alloyed with other metals in order to
+                      retain the desirable properties, while making it easier to
+                      work with. Higher quality jewelry is made from 95% pure
+                      platinum; the other 5% most commonly consisting of
+                      iridium, ruthenium, or cobalt. While the iridium blend is
+                      common, it is also considered the lowest quality, as it is
+                      most likely to scratch or chip.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Pure platinum is simply too hard to be used in jewelry.
-                    Instead, platinum is alloyed with other metals in order to
-                    retain the desirable properties, while making it easier to
-                    work with. Higher quality jewelry is made from 95% pure
-                    platinum; the other 5% most commonly consisting of iridium,
-                    ruthenium, or cobalt. While the iridium blend is common, it
-                    is also considered the lowest quality, as it is most likely
-                    to scratch or chip.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*10 */}
               <li className={classes.one} id="10">
                 <div className={classes.card}>
