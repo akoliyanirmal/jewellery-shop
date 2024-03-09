@@ -167,7 +167,7 @@ function CustomJeweller() {
                     <div className={classes.front}>
                       <img
                         className={classes.imgs}
-                        src="/images/Bangles.png"
+                        src="/images/bangless.png"
                         alt=""
                       />
                       <div className={classes.listHead}>
@@ -326,94 +326,101 @@ function CustomJeweller() {
                 </li>
               </Link>
               {/*10 */}
-              <li className={classes.one} id="10">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/Temple.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Temple jewellery</h3>
-                      <h3 className={classes.price}>price: ₹95,469</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Temple">
+                <li className={classes.one} id="10">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/Temple.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Temple jewellery</h3>
+                        <h3 className={classes.price}>price: ₹95,469</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Temple jewellery is said to have originated in the Chola
+                      and Pandya dynasties. In the early years, this kind of
+                      jewellery was made out of precious metal donations made to
+                      temples in south India and was meant to be reserved for
+                      adorning deities and royals.This form of jewellery is in
+                      vogue among young Indians who love its intricate designs
+                      that represent the fusion of Indian tradition with modern
+                      designs.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Temple jewellery is said to have originated in the Chola and
-                    Pandya dynasties. In the early years, this kind of jewellery
-                    was made out of precious metal donations made to temples in
-                    south India and was meant to be reserved for adorning
-                    deities and royals.This form of jewellery is in vogue among
-                    young Indians who love its intricate designs that represent
-                    the fusion of Indian tradition with modern designs.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
               {/*11 */}
-              <li className={classes.one} id="11">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/Filigree.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>Filigree jewellery</h3>
-                      <h3 className={classes.price}>price: ₹62,662</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+              <Link className={classes.cardTwo} href="Filigree">
+                <li className={classes.one} id="11">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/Filigree.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>Filigree jewellery</h3>
+                        <h3 className={classes.price}>price: ₹62,662</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Filigree is a form of intricate metalwork found in
+                      jewellery (as well as other decorative objects) which
+                      features interwoven fine wire or threads, which have been
+                      coiled or twisted to create exquisite patterns. These
+                      delicate patterns or motifs are then soldered together to
+                      make all kinds of jewellery such as earrings, necklaces,
+                      bracelets, and rings.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Filigree is a form of intricate metalwork found in jewellery
-                    (as well as other decorative objects) which features
-                    interwoven fine wire or threads, which have been coiled or
-                    twisted to create exquisite patterns. These delicate
-                    patterns or motifs are then soldered together to make all
-                    kinds of jewellery such as earrings, necklaces, bracelets,
-                    and rings.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
-              {/*12 */}
-              <li className={classes.one} id="">
-                <div className={classes.card}>
-                  <div className={classes.front}>
-                    <img
-                      className={classes.imgs}
-                      src="/images/cufflink.png"
-                      alt=""
-                    />
-                    <div className={classes.listHead}>
-                      <h3 className={classes.listone}>cufflink jewellery</h3>
-                      <h3 className={classes.price}>price: ₹35,662</h3>
-                      <span className={classes.listTwo}>
-                        The description of the item.
-                      </span>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
+              {/* 12 */}
+              <Link className={classes.cardTwo} href="Cufflink">
+                <li className={classes.one} id="">
+                  <div className={classes.card}>
+                    <div className={classes.front}>
+                      <img
+                        className={classes.imgs}
+                        src="/images/cufflink.png"
+                        alt=""
+                      />
+                      <div className={classes.listHead}>
+                        <h3 className={classes.listone}>cufflink jewellery</h3>
+                        <h3 className={classes.price}>price: ₹35,662</h3>
+                        <span className={classes.listTwo}>
+                          The description of the item.
+                        </span>
+                      </div>
+                    </div>
+                    <div className={classes.back}>
+                      Cufflinks are items of jewelry that are used to secure the
+                      cuffs of dress shirts. Cufflinks can be manufactured from
+                      a variety of different materials, such as glass, stone,
+                      leather, metal, precious metal or combinations of these.
+                      Securing of the cufflinks is usually achieved via toggles
+                      or reverses based on the design of the front section,
+                      which can be folded into position. There are also variants
+                      with chains or a rigid, bent rear section. The front
+                      sections of the cufflinks can be decorated with gemstones.
                     </div>
                   </div>
-                  <div className={classes.back}>
-                    Cufflinks are items of jewelry that are used to secure the
-                    cuffs of dress shirts. Cufflinks can be manufactured from a
-                    variety of different materials, such as glass, stone,
-                    leather, metal, precious metal or combinations of these.
-                    Securing of the cufflinks is usually achieved via toggles or
-                    reverses based on the design of the front section, which can
-                    be folded into position. There are also variants with chains
-                    or a rigid, bent rear section. The front sections of the
-                    cufflinks can be decorated with gemstones.
-                  </div>
-                </div>
-                <button className={classes.buy}>Buy Now</button>
-              </li>
+                  <button className={classes.buy}>Buy Now</button>
+                </li>
+              </Link>
             </ul>
           </div>
         </div>
