@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // "use client";
 
 import React, { useEffect, useState } from "react";
@@ -17,6 +18,7 @@ function NavBar() {
         </div>
 
         <section className={classes.section2}>
+          {/* <img className={classes.home} src="/images/home" alt="" /> */}
           <div className={classes.container}>
             <div className={classes.mainContainer}>
               <h1 className={classes.heding}>Infinity Golden Jewelry</h1>

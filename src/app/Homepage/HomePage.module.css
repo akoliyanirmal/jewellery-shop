@@ -28,12 +28,17 @@
 /* THIS IS SECTION 1 */
 
 .section2 {
-  background: url(http://www.gold.org/sites/default/files/images/Three_bracelets.jpg);
+  background: url(https://c0.wallpaperflare.com/preview/807/467/817/accessory-black-background-bright-close-up.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-size: cover; */
+  /* background-position: center; */
   height: 100vh;
 }
+
+/* .home {
+  height: 100vh;
+  background-repeat: no-repeat;
+} */
 
 .mainContainer {
   position: absolute;
