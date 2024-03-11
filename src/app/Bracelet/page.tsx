@@ -22,7 +22,7 @@ function bracelet() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>Chain bracelets</h3>
+                    <h3 className={classes.listone}>Chain bracelets</h3>₹ 45,412
                   </div>
                 </div>
               </li>
@@ -30,7 +30,7 @@ function bracelet() {
               <li className={classes.one} id="2">
                 <img className={classes.img} src="/images/slider.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>slider bracelets</h3>
+                  <h3 className={classes.listone}>slider bracelets</h3>₹ 39,412
                 </div>
               </li>
               {/*3 */}
@@ -41,14 +41,14 @@ function bracelet() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Gemstone bracelets</h3>
+                  <h3 className={classes.listone}>Gemstone bracelets</h3>₹34,412
                 </div>
               </li>
               {/*4 */}
               <li className={classes.one} id="4">
                 <img className={classes.imgs} src="/images/golds.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>gold bracelets</h3>
+                  <h3 className={classes.listone}>gold bracelets</h3>₹ 25,412
                 </div>
               </li>
               {/*5 */}
@@ -59,7 +59,7 @@ function bracelet() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>diamond bracelets</h3>
+                  <h3 className={classes.listone}>diamond bracelets</h3>₹ 84,176
                 </div>
               </li>
               {/*5 */}
@@ -70,21 +70,22 @@ function bracelet() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>statement bracelets</h3>
+                  <h3 className={classes.listone}>statement bracelets</h3>₹
+                  12,412
                 </div>
               </li>{" "}
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/tennis.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>tennis bracelets</h3>
+                  <h3 className={classes.listone}>tennis bracelets</h3>₹ 78,412
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/bar2.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>bar bracelets</h3>
+                  <h3 className={classes.listone}>bar bracelets</h3>₹ 9,412
                 </div>
               </li>
             </ul>

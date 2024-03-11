@@ -22,8 +22,7 @@ function Kundan() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>Platinum ring</h3>
-                    {/* ₹ 165,024 */}
+                    <h3 className={classes.listone}>Platinum ring</h3>₹ 165,024
                   </div>
                 </div>
               </li>
@@ -35,8 +34,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹24,583*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 24,583
                 </div>
               </li>
               {/*3 */}
@@ -47,8 +45,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹66,717 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 66,717
                 </div>
               </li>
               {/*4 */}
@@ -59,8 +56,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹93,858 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 93,858
                 </div>
               </li>
               {/*5 */}
@@ -71,8 +67,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹51,060 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 51,060
                 </div>
               </li>
               {/*5 */}
@@ -83,8 +78,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹65,546 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 65,546
                 </div>
               </li>{" "}
               {/*5 */}
@@ -95,8 +89,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹64,582 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 64,582
                 </div>
               </li>
               {/*5 */}
@@ -107,8 +100,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹93,077 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 93,077
                 </div>
               </li>
               {/*6 */}
@@ -119,8 +111,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹34,657 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 34,657
                 </div>
               </li>
               {/*7 */}
@@ -131,8 +122,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹43,042 */}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 43,042
                 </div>
               </li>
               {/*8 */}
@@ -143,8 +133,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹38,265*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 38,265
                 </div>
               </li>
               {/*9 */}
@@ -155,8 +144,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹24,387*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 24,387
                 </div>
               </li>
               {/*10 */}
@@ -167,8 +155,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹30,067*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 30,067
                 </div>
               </li>
               {/*11 */}
@@ -179,8 +166,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹33,987*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 33,987
                 </div>
               </li>
               {/*12 */}
@@ -191,8 +177,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹16,312*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 16,312
                 </div>
               </li>
               {/*13 */}
@@ -203,8 +188,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹25,845*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 25,845
                 </div>
               </li>
               {/*14 */}
@@ -215,8 +199,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹30,677*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 30,677
                 </div>
               </li>
               {/*15 */}
@@ -227,8 +210,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Platinum ring</h3>
-                  {/* ₹25,545*/}
+                  <h3 className={classes.listone}>Platinum ring</h3>₹ 25,545
                 </div>
               </li>
             </ul>

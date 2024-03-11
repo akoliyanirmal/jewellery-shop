@@ -22,8 +22,7 @@ function Antique() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>Necklace Antique</h3>
-                    {/* ₹ 4,482  */}
+                    <h3 className={classes.listone}>Necklace Antique</h3>₹ 4,482
                   </div>
                 </div>
               </li>
@@ -35,8 +34,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Earring Antique</h3>
-                  {/* ₹657*/}
+                  <h3 className={classes.listone}>Earring Antique</h3>₹ 657
                 </div>
               </li>
               {/*3 */}
@@ -47,24 +45,21 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>ganpati Antique</h3>
-                  {/* ₹772 */}
+                  <h3 className={classes.listone}>ganpati Antique</h3>₹ 772
                 </div>
               </li>
               {/*4 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/belt.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>belt Antique</h3>
-                  {/* ₹3,141  */}
+                  <h3 className={classes.listone}>belt Antique</h3>₹ 3,141
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/toering.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Teo Antique</h3>
-                  {/* ₹387 */}
+                  <h3 className={classes.listone}>Teo Antique</h3>₹ 387
                 </div>
               </li>
               {/*5 */}
@@ -75,8 +70,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles Antique</h3>
-                  {/* ₹1,611 */}
+                  <h3 className={classes.listone}>Bangles Antique</h3>₹ 1,611
                 </div>
               </li>{" "}
               {/*5 */}
@@ -87,8 +81,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>antique finger</h3>
-                  {/* ₹585 */}
+                  <h3 className={classes.listone}>antique finger</h3>₹ 585
                 </div>
               </li>
               {/*5 */}
@@ -99,8 +92,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>matil Antique</h3>
-                  {/* ₹1,782 */}
+                  <h3 className={classes.listone}>matil Antique</h3>₹ 1,782
                 </div>
               </li>
               {/*6 */}
@@ -111,16 +103,14 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>choti Antique</h3>
-                  {/* ₹6,120 */}
+                  <h3 className={classes.listone}>choti Antique</h3>₹ 6,120
                 </div>
               </li>
               {/*7 */}
               <li className={classes.one} id="4">
                 <img className={classes.imgs} src="/images/kada.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>kada Antique</h3>
-                  {/* ₹801 */}
+                  <h3 className={classes.listone}>kada Antique</h3>₹ 801
                 </div>
               </li>
               {/*8 */}
@@ -131,16 +121,14 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>mangalsutra Antique</h3>
-                  {/* ₹972 */}
+                  <h3 className={classes.listone}>mangalsutra Antique</h3>₹ 972
                 </div>
               </li>
               {/*9 */}
               <li className={classes.one} id="4">
                 <img className={classes.imgs} src="/images/tika.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>tika Antique</h3>
-                  {/* ₹612*/}
+                  <h3 className={classes.listone}>tika Antique</h3>₹ 612
                 </div>
               </li>
               {/*10 */}
@@ -151,8 +139,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bajuband Antique</h3>
-                  {/* ₹765 */}
+                  <h3 className={classes.listone}>Bajuband Antique</h3>₹ 765
                 </div>
               </li>
               {/*11 */}
@@ -163,8 +150,7 @@ function Antique() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>HairBrooch Antique</h3>
-                  {/* ₹792*/}
+                  <h3 className={classes.listone}>HairBrooch Antique</h3>₹ 792
                 </div>
               </li>
             </ul>

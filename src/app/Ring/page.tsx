@@ -22,7 +22,7 @@ function Ring() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>engagement ring</h3>
+                    <h3 className={classes.listone}>engagement ring</h3>₹ 62,787
                   </div>
                 </div>
               </li>
@@ -34,7 +34,7 @@ function Ring() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>solitaire ring</h3>
+                  <h3 className={classes.listone}>solitaire ring</h3>₹ 1,15,557
                 </div>
               </li>
               {/*3 */}
@@ -45,7 +45,7 @@ function Ring() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>claddagh ring</h3>
+                  <h3 className={classes.listone}>claddagh ring</h3>₹ 31,787
                 </div>
               </li>
               {/*4 */}
@@ -56,14 +56,14 @@ function Ring() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>cocktail ring</h3>
+                  <h3 className={classes.listone}>cocktail ring</h3>₹ 90,734
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/knot.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>knot ring</h3>
+                  <h3 className={classes.listone}>knot ring</h3>₹ 86,771
                 </div>
               </li>
               {/*5 */}
@@ -74,21 +74,21 @@ function Ring() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>cluster ring</h3>
+                  <h3 className={classes.listone}>cluster ring</h3>₹ 86,771
                 </div>
               </li>{" "}
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/halo.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>halo ring</h3>
+                  <h3 className={classes.listone}>halo ring</h3>₹ 51,443
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.imgs} src="/images/pave.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>pave ring</h3>
+                  <h3 className={classes.listone}>pave ring</h3>₹ 66,873
                 </div>
               </li>
             </ul>

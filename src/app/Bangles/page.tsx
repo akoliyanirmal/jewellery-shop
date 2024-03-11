@@ -22,8 +22,7 @@ function Pendent() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>Bangles</h3>
-                    {/* ₹1,37,803 */}
+                    <h3 className={classes.listone}>Bangles</h3>₹ 1,37,803
                   </div>
                 </div>
               </li>
@@ -35,8 +34,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,39,184 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,39,184
                 </div>
               </li>
               {/*3 */}
@@ -47,16 +45,14 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,64,162 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,64,162
                 </div>
               </li>
               {/*4 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/bagles4.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹2,26,831 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 2,26,831
                 </div>
               </li>
               {/*5 */}
@@ -67,8 +63,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,82,513 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,82,513
                 </div>
               </li>
               {/*5 */}
@@ -79,8 +74,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,51,119 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,51,119
                 </div>
               </li>{" "}
               {/*5 */}
@@ -91,8 +85,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹2,36,908 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 2,36,908
                 </div>
               </li>
               {/*5 */}
@@ -103,8 +96,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,80,793 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,80,793
                 </div>
               </li>
               {/*6 */}
@@ -115,8 +107,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹4,10,344 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 4,10,344
                 </div>
               </li>
               {/*7 */}
@@ -127,8 +118,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹2,00,327 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 2,00,327
                 </div>
               </li>
               {/*8 */}
@@ -139,8 +129,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹1,62,000 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 1,62,000
                 </div>
               </li>
               {/*9 */}
@@ -151,8 +140,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,21,428 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,21,428
                 </div>
               </li>
               {/*10 */}
@@ -163,8 +151,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹6,86,345 */}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 6,86,345
                 </div>
               </li>
               {/*11 */}
@@ -175,8 +162,7 @@ function Pendent() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Bangles</h3>
-                  {/* ₹3,26,559*/}
+                  <h3 className={classes.listone}>Bangles</h3>₹ 3,26,559
                 </div>
               </li>
             </ul>

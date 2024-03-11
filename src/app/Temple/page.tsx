@@ -22,8 +22,8 @@ function Temple() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>temple jewellery</h3>
-                    {/* ₹ 65,525 */}
+                    <h3 className={classes.listone}>temple jewellery</h3>₹
+                    65,525
                   </div>
                 </div>
               </li>
@@ -35,8 +35,7 @@ function Temple() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>temple jewellery</h3>
-                  {/* ₹56,356*/}
+                  <h3 className={classes.listone}>temple jewellery</h3>₹ 56,356
                 </div>
               </li>
               {/*3 */}
@@ -47,8 +46,7 @@ function Temple() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>temple jewellery</h3>
-                  {/* ₹24,526 */}
+                  <h3 className={classes.listone}>temple jewellery</h3>₹ 24,526
                 </div>
               </li>
               {/*4 */}
@@ -59,8 +57,7 @@ function Temple() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>temple jewellery</h3>
-                  {/* ₹65,688*/}
+                  <h3 className={classes.listone}>temple jewellery</h3>₹ 65,688
                 </div>
               </li>
               {/*5 */}
@@ -71,8 +68,7 @@ function Temple() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>temple jewellery</h3>
-                  {/* ₹35,568*/}
+                  <h3 className={classes.listone}>temple jewellery</h3>₹ 35,568
                 </div>
               </li>
               {/*5 */}
@@ -83,8 +79,7 @@ function Temple() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>temple jewellery</h3>
-                  {/* ₹48,365*/}
+                  <h3 className={classes.listone}>temple jewellery</h3>₹ 48,365
                 </div>
               </li>{" "}
             </ul>

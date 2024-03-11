@@ -22,8 +22,7 @@ function Kundan() {
                     alt=""
                   />
                   <div className={classes.listHead}>
-                    <h3 className={classes.listone}>Kundan necklace</h3>
-                    {/* ₹ 14,877 */}
+                    <h3 className={classes.listone}>Kundan necklace</h3>₹ 14,877
                   </div>
                 </div>
               </li>
@@ -35,8 +34,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Kundan side mang</h3>
-                  {/* ₹3,999*/}
+                  <h3 className={classes.listone}>Kundan side mang</h3>₹ 3,999
                 </div>
               </li>
               {/*3 */}
@@ -47,8 +45,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Mathapatti Kundan</h3>
-                  {/* ₹2,940 */}
+                  <h3 className={classes.listone}>Mathapatti Kundan</h3>₹ 2,940
                 </div>
               </li>
               {/*4 */}
@@ -59,8 +56,7 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>kada kundan</h3>
-                  {/* ₹806 */}
+                  <h3 className={classes.listone}>kada kundan</h3>₹ 806
                 </div>
               </li>
               {/*5 */}
@@ -71,48 +67,42 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>bracelet kundan</h3>
-                  {/* ₹671 */}
+                  <h3 className={classes.listone}>bracelet kundan</h3>₹ 671
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/Anklets.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>Anklets kundan</h3>
-                  {/* ₹851 */}
+                  <h3 className={classes.listone}>Anklets kundan</h3>₹ 851
                 </div>
               </li>{" "}
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/plating.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>plating kundan</h3>
-                  {/* ₹4,370 */}
+                  <h3 className={classes.listone}>plating kundan</h3>₹ 4,370
                 </div>
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/polki.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>polki kundan</h3>
-                  {/* ₹16,973 */}
+                  <h3 className={classes.listone}>polki kundan</h3>₹ 16,973
                 </div>
               </li>
               {/*6 */}
               <li className={classes.one} id="4">
                 <img className={classes.imgs} src="/images/jiya.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>jiya kundan</h3>
-                  {/* ₹3,500 */}
+                  <h3 className={classes.listone}>jiya kundan</h3>₹ 3,500
                 </div>
               </li>
               {/*7 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/chokers.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>choker kundan</h3>
-                  {/* ₹599 */}
+                  <h3 className={classes.listone}>choker kundan</h3>₹ 599
                 </div>
               </li>
               {/*8 */}
@@ -123,16 +113,14 @@ function Kundan() {
                   alt=""
                 />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>findings kundan</h3>
-                  {/* ₹251 */}
+                  <h3 className={classes.listone}>findings kundan</h3>₹ 251
                 </div>
               </li>
               {/*9 */}
               <li className={classes.one} id="4">
                 <img className={classes.img} src="/images/Kring.png" alt="" />
                 <div className={classes.listHead}>
-                  <h3 className={classes.listone}>ring Brooches</h3>
-                  {/* ₹2007*/}
+                  <h3 className={classes.listone}>ring Brooches</h3>₹ 2007
                 </div>
               </li>
             </ul>
