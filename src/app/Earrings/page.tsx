@@ -45,7 +45,11 @@ function Earrings() {
               </li>
               {/*5 */}
               <li className={classes.one} id="4">
-                <img className={classes.imgs} src="/images/jacket.png" alt="" />
+                <img
+                  className={classes.imgs}
+                  src="/images/jackets.png"
+                  alt=""
+                />
                 <div className={classes.listHead}>
                   <h3 className={classes.listone}>jacket Earrings</h3>₹ 35,686
                 </div>
